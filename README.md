@@ -47,3 +47,11 @@ Question 1: ButterFly created which can fly but can't make sound.
 Question 2: Caterpillar implemented which cannot fly but can walk and can morph into Butterfly via metamorphosis.
 
 ***********************************************************
+
+************************ Section E ************************
+
+Question 1: Code to count is implemented in CountingAnimals.java
+Note: The animals objects could be created by using builder pattern,
+but since currently the object creation complexity is not much, I am not using builder for object creation.
+
+***********************************************************
