@@ -1,5 +1,5 @@
 # stel-assignment
-Coding Assignment by Ankit Gupta
+Coding Assignment by Ankit Gupta (akit.ddun@gmail.com)
 ***********************************************************
 ********************* Section A ***************************
 
@@ -53,5 +53,13 @@ Question 2: Caterpillar implemented which cannot fly but can walk and can morph 
 Question 1: Code to count is implemented in CountingAnimals.java
 Note: The animals objects could be created by using builder pattern,
 but since currently the object creation complexity is not much, I am not using builder for object creation.
+
+***********************************************************
+
+************************ Bonus ****************************
+
+Question 1: Sound Library with Multiple Locale implemented. These Locales are configurable and can be changed as per the requirement.
+
+Question 2: Sorry, couldn't implement within time range of 1.5 Hrs.
 
 ***********************************************************

@@ -8,8 +8,6 @@ public class Parrot extends Bird {
 
     public Parrot(String callSound){
         singBehaviour = null;
-        flyBehaviour = new FlyBehaviourImpl();
-        walkBehaviour = new WalkBehaviourImpl();
-        soundBehaviour = new SoundBehaviourImpl(callSound);
+        soundBehaviour = new SoundBehaviourImpl(callSound, LOCALE);
     }
 }

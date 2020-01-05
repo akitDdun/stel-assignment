@@ -21,7 +21,7 @@ public class CountingAnimals {
                 new Shark(),
                 new ClownFish(),
                 new Dolphin(),
-                new Caterpillar().metamorphosis() //Butterfly is restricted to be created from a caterpillar
+                new Caterpillar().metamorphosis() //Butterfly is restricted to be only created from a caterpillar
         };
 
        for(Animal animal : animals){
@@ -41,6 +41,6 @@ public class CountingAnimals {
         System.out.println("Flying Animals :"+flyCount);
         System.out.println("Singing Animals :"+singCount);
         System.out.println("Walking Animals :"+walkCount);
-        System.out.println("Swiming Animals :"+swimCount);
+        System.out.println("Swimming Animals :"+swimCount);
     }
 }

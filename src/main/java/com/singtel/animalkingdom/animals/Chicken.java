@@ -7,13 +7,13 @@ public class Chicken extends Bird {
     private static final String CALL_SOUND = "Chicken";
 
     public Chicken() {
-        soundBehaviour = new SoundBehaviourImpl(CALL_SOUND);
+        soundBehaviour = new SoundBehaviourImpl(CALL_SOUND, LOCALE);
         flyBehaviour = null;
         singBehaviour = null;
     }
 
     public Chicken(String callSound){
-        soundBehaviour = new SoundBehaviourImpl(callSound);
+        soundBehaviour = new SoundBehaviourImpl(callSound, LOCALE);
         flyBehaviour = null;
         singBehaviour = null;
     }

@@ -9,7 +9,7 @@ public class Duck extends Bird {
 
     public Duck() {
         swimBehaviour = new SwimBehaviourImpl();
-        soundBehaviour = new SoundBehaviourImpl(CALL_SOUND);
+        soundBehaviour = new SoundBehaviourImpl(CALL_SOUND, LOCALE);
         singBehaviour = null;
     }
 }

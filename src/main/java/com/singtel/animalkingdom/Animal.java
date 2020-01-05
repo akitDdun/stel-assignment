@@ -4,6 +4,8 @@ import com.singtel.animalkingdom.behaviour.*;
 
 public abstract class Animal {
 
+    public static final String LOCALE = "Hindi";
+
     protected SoundBehaviour soundBehaviour;
     protected SingBehaviour singBehaviour;
     protected FlyBehaviour flyBehaviour;
