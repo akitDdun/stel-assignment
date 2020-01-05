@@ -9,6 +9,8 @@ public abstract class Animal {
     protected FlyBehaviour flyBehaviour;
     protected SwimBehaviour swimBehaviour;
     protected WalkBehaviour walkBehaviour;
+    protected SpecialBehaviour specialBehaviour;
+
 
     public boolean fly(){
         if(flyBehaviour != null){
@@ -45,6 +47,14 @@ public abstract class Animal {
     public boolean walk(){
         if(walkBehaviour != null){
             walkBehaviour.walk();
+            return true;
+        }
+        return false;
+    }
+
+    public boolean speciality(){
+        if(specialBehaviour != null){
+            specialBehaviour.speciality();
             return true;
         }
         return false;

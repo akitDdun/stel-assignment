@@ -1,6 +1,7 @@
 # stel-assignment
 Coding Assignment by Ankit Gupta
 ***********************************************************
+********************* Section A ***************************
 
 Question 1(a): wrote junit test case BirdTest.java
 
@@ -24,6 +25,17 @@ Since anyways rooster IS-A Chicken. (See Solution Class)
 
 ***********************************************************
 
-Question 4(a,b,c,d): Since my Sound Behaviour is configurable, Parrot can easily mimic other animnals. Please see Solution.Java
+Question 4(a,b,c,d): Since my Sound Behaviour is configurable, Parrot can easily mimic other animals. Please see Solution.Java
+
+***********************************************************
+
+
+************************ Section B ************************
+
+Question 1: Fish Model is implemented.
+
+Question 2: Shark and ClownFish with special behaviours are implemented.
+
+Question 2: Dolphin is implemented and is not reheated to Fish.
 
 ***********************************************************

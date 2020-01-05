@@ -7,42 +7,42 @@ import org.junit.Test;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-public class DuckTest {
+public class DolphinTest {
 
-    private Animal duck;
+    private Animal dolphin;
 
     @Before
     public void setup(){
-        duck = new Duck();
+        dolphin = new Dolphin();
     }
 
     @Test
     public void testSoundBehaviour(){
-        assertTrue("Duck can make Sound",  duck.makeSound());
+        assertFalse("Dolphin can not make Sound",  dolphin.makeSound());
     }
 
     @Test
     public void testSingBehaviour(){
-        assertFalse("Duck can not Sing",  duck.sing());
+        assertFalse("Dolphin can not Sing",  dolphin.sing());
     }
 
     @Test
     public void testFlyBehaviour(){
-        assertTrue("Duck can Fly",  duck.fly());
+        assertFalse("Dolphin can not Fly",  dolphin.fly());
     }
 
     @Test
     public void testSwimBehaviour(){
-        assertTrue("Duck can Swim",  duck.swim());
+        assertTrue("Dolphin can Swim",  dolphin.swim());
     }
 
     @Test
     public void testWalkBehaviour(){
-        assertTrue("Duck can Walk",  duck.walk());
+        assertFalse("Dolphin can not Walk",  dolphin.walk());
     }
 
     @Test
     public void testSpecialBehaviour(){
-        assertFalse("Duck have no Special Behaviour",  duck.speciality());
+        assertFalse("Dolphin have no Special Behaviour",  dolphin.speciality());
     }
 }

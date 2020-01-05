@@ -31,5 +31,19 @@ public class Solution {
 
         Animal parrotWithCats = new Parrot("Cat");
         parrotWithCats.makeSound();
+
+        Animal fish = new Fish();
+        fish.swim();
+
+        Animal shark = new Shark();
+        shark.swim();
+        shark.speciality();
+
+        Animal clownFish = new ClownFish();
+        clownFish.swim();
+        clownFish.speciality();
+
+        Animal dolphin = new Dolphin();
+        dolphin.swim();
     }
 }

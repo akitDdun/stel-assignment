@@ -43,6 +43,10 @@ public class ChickenTest {
         assertTrue("Chicken can Walk",  chicken.walk());
     }
 
+    @Test
+    public void testChickenSpecialBehaviour(){
+        assertFalse("Chicken have no Special Behaviour",  chicken.speciality());
+    }
 
     @Test
     public void testRoosterSoundBehaviour(){
@@ -67,5 +71,10 @@ public class ChickenTest {
     @Test
     public void testRoosterWalkBehaviour(){
         assertTrue("Rooster can Walk",  rooster.walk());
+    }
+
+    @Test
+    public void testRoosterSpecialBehaviour(){
+        assertFalse("Rooster have no Special Behaviour",  rooster.speciality());
     }
 }

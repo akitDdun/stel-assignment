@@ -7,7 +7,11 @@ import org.junit.runners.Suite;
 @Suite.SuiteClasses({
         BirdTest.class,
         ChickenTest.class,
+        ClownFishTest.class,
+        DolphinTest.class,
         DuckTest.class,
-        ParrotTest.class})
+        FishTest.class,
+        ParrotTest.class,
+        SharkTest.class})
 public class AllTests {
 }

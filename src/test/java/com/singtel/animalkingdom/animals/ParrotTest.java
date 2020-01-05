@@ -42,4 +42,9 @@ public class ParrotTest {
     public void testWalkBehaviour(){
         assertTrue("Parrot can Walk",  parrot.walk());
     }
+
+    @Test
+    public void testSpecialBehaviour(){
+        assertFalse("Parrot have no Special Behaviour",  parrot.speciality());
+    }
 }
