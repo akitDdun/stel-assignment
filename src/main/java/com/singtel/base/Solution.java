@@ -22,5 +22,14 @@ public class Solution {
 
         Animal rooster = new Chicken("Rooster");
         rooster.makeSound();
+
+        Animal parrotWithRooster = new Parrot("Rooster");
+        parrotWithRooster.makeSound();
+
+        Animal parrotWithDogs = new Parrot("Dog");
+        parrotWithDogs.makeSound();
+
+        Animal parrotWithCats = new Parrot("Cat");
+        parrotWithCats.makeSound();
     }
 }

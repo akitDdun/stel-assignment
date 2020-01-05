@@ -23,3 +23,7 @@ So I didn't really created a Rooster class, Rather made the Sound Configurable, 
 Since anyways rooster IS-A Chicken. (See Solution Class)
 
 ***********************************************************
+
+Question 4(a,b,c,d): Since my Sound Behaviour is configurable, Parrot can easily mimic other animnals. Please see Solution.Java
+
+***********************************************************
