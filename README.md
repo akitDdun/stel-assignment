@@ -1,5 +1,8 @@
 # stel-assignment
 Coding Assignment by Ankit Gupta (akit.ddun@gmail.com)
+Note: Commit User ID has been changed after I cloned project into my IDE.
+So Initialy when I created repo via Github GUI, commit user is akitDdun.
+But subsequent commits done from My IDE are coming from user 1041793.
 ***********************************************************
 ********************* Section A ***************************
 
