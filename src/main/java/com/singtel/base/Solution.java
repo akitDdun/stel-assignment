@@ -45,5 +45,10 @@ public class Solution {
 
         Animal dolphin = new Dolphin();
         dolphin.swim();
+
+        Caterpillar caterpillar = new Caterpillar();
+        caterpillar.walk();
+        ButterFly butterFly = caterpillar.metamorphosis();
+        butterFly.fly();
     }
 }

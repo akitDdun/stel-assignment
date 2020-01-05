@@ -12,6 +12,8 @@ import org.junit.runners.Suite;
         DuckTest.class,
         FishTest.class,
         ParrotTest.class,
-        SharkTest.class})
+        SharkTest.class,
+        ButterFlyTest.class,
+        CaterpillarTest.class})
 public class AllTests {
 }

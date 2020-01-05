@@ -39,3 +39,11 @@ Question 2: Shark and ClownFish with special behaviours are implemented.
 Question 2: Dolphin is implemented and is not reheated to Fish.
 
 ***********************************************************
+
+************************ Section D ************************
+
+Question 1: ButterFly created which can fly but can't make sound.
+
+Question 2: Caterpillar implemented which cannot fly but can walk and can morph into Butterfly via metamorphosis.
+
+***********************************************************
